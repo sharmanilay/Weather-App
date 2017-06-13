@@ -1,0 +1,64 @@
+<head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="JS/javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+</head>
+
+
+
+<body class="day">
+  <h3 align="center">Local Weather Detector</h3>
+        <button vertical-align="bottom-center" onClick="rajamallu()" class="btn-default btu">
+        Show Weather
+        </button>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1>Current Weather</h1>
+        <div class="date"></div>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="weatherbox center-block">
+          <div class="city"></div>
+          <div class="innerweatherbox">
+            <div class="info">
+              <div class="icon"></div>
+              <div class="desc"></div>
+            </div>
+            <!-- /.info -->
+            <div class="weather">
+              <div class="temp"></div>
+              <div class="humidity"></div>
+            </div>
+            <!-- /.weather -->
+            <div class="wind">
+              <div class="winddir"></div>
+              <div class="windspeed"></div>
+            </div>
+            <!-- /.wind -->
+          </div>
+          <!-- /.innerweatherbox -->
+        </div>
+        <!-- /.weatherbox -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <button class="btn btn-default metric">
+          Metric
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</body>
+<!-- /body -->
